@@ -37,7 +37,10 @@ Tested with
 * TibcoEMS 8.0.0
 * Pivotal Cloud Foundry 1.3
 
-
+Sample app
+==========
+A basic Servlet based Java webapp is provided in sampleapp. It access the service credentials using Spring cloud connector but uses a low level JSON parsing primitive to access VCAP_SERVICES published credentials.
+One can build this webapp with Eclipse or Spring Tool Suite as no build script is provided.
 
 
 Routes
